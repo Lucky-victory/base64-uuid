@@ -57,21 +57,3 @@ export class Base64UUID {
     return uid;
   }
 }
-
-let co = 500000;
-let ids = { u1: [] as string[], u2: [] as string[] };
-while (co > 0) {
-  const uid = Base64UUID.generate(10);
-
-  const uid2 = new Base64UUID(10).generate();
-  ids.u1.push(uid);
-  ids.u2.push(uid2);
-  co--;
-}
-// console.log(ids);
-const findDups = (arr: any[]) => {
-  return arr.filter((val, index) => arr.indexOf(val) !== index);
-};
-
-console.log({ dups: findDups(ids.u1) });
-console.log({ dups2: findDups(ids.u2) });

@@ -17,6 +17,9 @@
     "unique",
     "ID"
   ],
+  "files": [
+    "dist/index.js"
+  ],
   "author": "Lucky Victory <luckyvictory54@gmail.com> (lucky-victory.dev)",
   "license": "ISC",
   "bugs": {
