@@ -1,6 +1,6 @@
 {
   "name": "base64-uuid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate Base64 URL-safe UUID like youtube",
   "main": "dist/index.js",
   "scripts": {
@@ -18,8 +18,10 @@
     "ID"
   ],
   "files": [
-    "dist/index.js"
+    "dist/index.js",
+    "dist/index.d.ts"
   ],
+  "types": "dist/index.d.ts",
   "author": "Lucky Victory <luckyvictory54@gmail.com> (lucky-victory.dev)",
   "license": "ISC",
   "bugs": {
