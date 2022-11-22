@@ -1,0 +1,29 @@
+{
+  "name": "base64-uuid",
+  "version": "1.0.0",
+  "description": "Generate Base64 URL-safe UUID like youtube",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucky-victory/base64-uuid.git"
+  },
+  "keywords": [
+    "UUID",
+    "base64",
+    "shortID",
+    "unique",
+    "ID"
+  ],
+  "author": "Lucky Victory <luckyvictory54@gmail.com> (lucky-victory.dev)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucky-victory/base64-uuid/issues"
+  },
+  "homepage": "https://github.com/lucky-victory/base64-uuid#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}

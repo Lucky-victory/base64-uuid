@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Projects */
+    "incremental": true /* Enable incremental compilation */,
+    // "composite": true,                                /* Enable constraints that allow a TypeScript project to be used with project references. */
+
+    "target": "es2016",
+    /* Modules */
+    "module": "CommonJS" /* Specify what module code is generated. */,
+    "rootDir": "./",
+
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  }
+}
