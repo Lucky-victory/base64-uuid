@@ -10,7 +10,7 @@
     /* Modules */
     "module": "CommonJS" /* Specify what module code is generated. */,
     "rootDir": "./",
-
+    "declaration": true,
     "outDir": "./dist",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,

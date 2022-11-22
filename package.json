@@ -1,6 +1,6 @@
 {
   "name": "base64-uuid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate Base64 URL-safe UUID like youtube",
   "main": "dist/index.js",
   "scripts": {
